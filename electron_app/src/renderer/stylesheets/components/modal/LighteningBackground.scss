@@ -11,3 +11,37 @@
     z-index: 20;
     
 }
+.fade {
+    animation-name: fade;
+    -webkit-animation-name: fade;
+    animation-duration: 0.5s;
+    -webkit-animation-duration: 0.5s;
+    animation-timing-function: ease-in-out;
+    -webkit-animation-timing-function: ease-in-out;
+}
+
+@keyframes fade {
+    0% {
+       
+        opacity: 0;
+    }
+
+    100% {
+      
+        opacity: 1;
+    }
+}
+
+@-webkit-keyframes fade {
+    0% {
+        
+
+        opacity: 0;
+    }
+
+    100% {
+        
+
+        opacity: 1;
+    }
+}

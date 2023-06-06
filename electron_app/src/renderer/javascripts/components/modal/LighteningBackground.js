@@ -34,7 +34,7 @@ const LighteningBackground = () => {
         }
     }
 
-    return <div className="lightening-background" onClick={clickHandler}></div>;
+    return <div className="lightening-background fade" onClick={clickHandler}></div>;
 }
 
 export default LighteningBackground;
