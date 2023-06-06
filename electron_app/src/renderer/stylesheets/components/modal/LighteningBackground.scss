@@ -9,7 +9,6 @@
     background-color: rgba(250, 250, 250, 0.5);
 
     z-index: 20;
-    
 }
 .fade {
     animation-name: fade;
@@ -22,26 +21,20 @@
 
 @keyframes fade {
     0% {
-       
         opacity: 0;
     }
 
     100% {
-      
         opacity: 1;
     }
 }
 
 @-webkit-keyframes fade {
     0% {
-        
-
         opacity: 0;
     }
 
     100% {
-        
-
         opacity: 1;
     }
 }
